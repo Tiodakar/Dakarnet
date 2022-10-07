@@ -1,5 +1,5 @@
 {
-    "Version": "150",
+    "Version": "151",
     "ReleaseNotes": "Nova atualização disponível! ✅",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -17,7 +17,7 @@
             "Name": "BR01 - Dakarnet",
             "TYPE": "premium",
             "FLAG": "br.png",
-            "ServerIP": "https://dakarnet.cloudeasyoficial.xyz",
+            "ServerIP": "dakarnet.cloudeasyoficial.xyz",
             "CheckUser": "https://dakarnet-check.cloudeasyoficial.xyz:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
