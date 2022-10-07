@@ -25,7 +25,7 @@
             "PASS": ""
         },
         {
-            "Name": "BR01 - CloudEasy",
+            "Name": "BR02 - CloudEasy",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "br02.cloudeasyoficial.xyz",
