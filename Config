@@ -1,8 +1,8 @@
 {
-    "Version": "203",
-    "ReleaseNotes": "Nova atualização disponível! ✅",
+    "Version": "204",
+    "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
-    "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
+    "UrlUpdate": "https://raw.githubusercontent.com/tiodakar/dakarnet/main/config",
     "EmailFeedback": "contato@dakarnet.com.br",
     "UrlContato": "t.me/tiodakar",
     "UrlTermos": "https://telegra.ph/Termos-de-uso-07-31",
