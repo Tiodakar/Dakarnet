@@ -1,8 +1,8 @@
 {
-    "Version": "140",
+    "Version": "142",
     "ReleaseNotes": "Nova atualização disponível! ✅",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
-    "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
+    "UrlUpdate": "raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
     "EmailFeedback": "contato@dakarnet.com.br",
     "UrlContato": "t.me/tiodakar",
     "UrlTermos": "https://telegra.ph/Termos-de-uso-07-31",
