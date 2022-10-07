@@ -1,0 +1,40 @@
+{
+    "Version": "142",
+    "ReleaseNotes": "Nova atualização disponível! ✅",
+    "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
+    "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
+    "EmailFeedback": "contato@dakarnet.com.br",
+    "UrlContato": "t.me/tiodakar",
+    "UrlTermos": "https://telegra.ph/Termos-de-uso-07-31",
+    "CheckUser": "true",
+    "Udp": [
+        {
+            "Porta": "7300"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "BR01 - Dakarnet",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "Br1.mstelecom2.online",
+            "CheckUser": "http://177.67.82.69:5000",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "✔️ Tim    - [4G]",
+            "FLAG": "tim",
+            "Payload": "GET wss://bam.nr-data.net/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",",
+            "SNI": "bam.nr-data.net",
+            "TlsIP": "162.247.241.14",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        }
+    ]
+}
