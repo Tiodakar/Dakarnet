@@ -69,7 +69,7 @@
         {
       "Name": "Tim - 04",
       "FLAG": "tim",
-      "Payload": "GET wss://image.mail.c6bank.com.br HTTP/1.1[crlf]Host: br.interflash.store[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "Payload": "GET wss://image.mail.c6bank.com.br HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
       "SNI": "image.mail.c6bank.com.br",
       "TlsIP": "104.16.237.16",
       "ProxyIP": "",
