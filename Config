@@ -1,5 +1,5 @@
 {
-    "Version": "124",
+    "Version": "125",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -34,6 +34,16 @@
             "TlsIP": "104.18.6.80",
             "ProxyIP": "",
             "ProxyPort": "",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM",
+            "FLAG": "tim",
+            "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: [apphost][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "duvidas.ampli.com.br",
+            "TlsIP": "duvidas.ampli.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
             "Info": "Tlsws"
         },
         {
