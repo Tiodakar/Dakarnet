@@ -1,5 +1,5 @@
 {
-    "Version": "126",
+    "Version": "127",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -36,25 +36,75 @@
             "ProxyPort": "",
             "Info": "Tlsws"
         },
+		{
+      "Name": "Tim - 01",
+      "FLAG": "tim",
+      "Payload": "GET wss://duvidas.ampli.com.br/hc/pt-br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "duvidas.ampli.com.br",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+        },
+		{
+      "Name": "Tim - 02",
+      "FLAG": "tim",
+      "Payload": "GET wss://terms.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "terms.c6bank.com.br",
+      "TlsIP": "104.16.236.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+	    },
+	    {
+      "Name": "Tim - 03",
+      "FLAG": "tim",
+      "Payload": "GET wss://cursolivre.ampli.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "cursolivre.ampli.com.br",
+      "TlsIP": "172.64.144.237",
+      ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+        },
         {
-            "Name": "TIM",
-            "FLAG": "tim",
-            "Payload": "GET wss://assets-sf.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-            "SNI": "assets-sf.c6bank.com.br",
-            "TlsIP": "104.16.237.16",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },   
+      "Name": "Tim - 04",
+      "FLAG": "tim",
+      "Payload": "GET wss://image.mail.c6bank.com.br HTTP/1.1[crlf]Host: br.interflash.store[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "SNI": "image.mail.c6bank.com.br",
+      "TlsIP": "104.16.237.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+        },
         {
-            "Name": "CLARO",
-            "FLAG": "claro",
-            "Payload": "GET wss://Atendimento.descomplica.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "Atendimento.descomplica.com.br",
-            "TlsIP": "Atendimento.descomplica.com.br",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
+      "Name": "Tim - 05",
+      "FLAG": "tim",
+      "Payload": "PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]",
+      "SNI": "",
+      "TlsIP": "20.226.27.246",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+        },
+        {
+      "Name": "TIM - 05",
+      "FLAG": "tim",
+      "Payload": "GET wss://assets-sf.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "assets-sf.c6bank.com.br",
+      "TlsIP": "104.16.237.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+        },	
+        {
+      "Name": "CLARO",
+      "FLAG": "claro",
+      "Payload": "GET wss://Atendimento.descomplica.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "Atendimento.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
         }
     ]
 }
