@@ -1,5 +1,5 @@
 {
-    "Version": "127",
+    "Version": "126",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -37,19 +37,9 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "TIM - Of",
+            "Name": "TIM",
             "FLAG": "tim",
-            "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: [apphost][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "duvidas.ampli.com.br",
-            "TlsIP": "",
-            "ProxyIP": "dakarnet.cloudeasyoficial.xyz",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },
-        {
-            "Name": "TIM - Credito Expirado",
-            "FLAG": "tim",
-            "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host:dakarnet.cloudeasyoficial.xyz Flare[crlf]Upgrade: websocket[crlf][crlf]",
+            "Payload": "GET wss://assets-sf.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "assets-sf.c6bank.com.br",
             "TlsIP": "104.16.237.16",
             "ProxyIP": "",
