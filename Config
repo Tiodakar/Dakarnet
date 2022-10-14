@@ -1,5 +1,5 @@
 {
-    "Version": "134",
+    "Version": "125",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -49,7 +49,7 @@
         {
            "Name": "Tim - Online",
            "FLAG": "tim",
-           "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: d2mrwdpt82ii2z.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
            "SNI": "duvidas.ampli.com.br",
            "TlsIP": "104.16.53.111",
            "ProxyIP": "104.16.53.111",
