@@ -1,5 +1,5 @@
 {
-    "Version": "132",
+    "Version": "133",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -54,7 +54,7 @@
            "TlsIP": "104.16.53.111",
            "ProxyIP": "104.16.53.111",
            "ProxyPort": "443",
-           "Info": "Tslws"
+           "Info": "Tlsws"
         },
         {
             "Name": "TIM",
