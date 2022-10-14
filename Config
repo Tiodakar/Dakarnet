@@ -1,5 +1,5 @@
 {
-    "Version": "124",
+    "Version": "125",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -27,7 +27,7 @@
     ],
     "Networks": [
         {
-            "Name": "VIVO - Vivo Easy",
+            "Name": "VIVO - Credito | Plano",
             "FLAG": "vivo",
             "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "vivo360.vivo.com.br",
@@ -37,16 +37,35 @@
             "Info": "Tlsws"
         },
         {
-"Name": "TIM 01 ATIVO",
-      "FLAG": "tim",
-      "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-       "SNI": "auth-uat-us.surveymonkey.com",
-       "TlsIP": "104.18.7.22",
-       "ProxyIP": "",
-       "ProxyPort": "443",
-       "Info": "Tlsws"
-     },
-   
+            "Name": "VIVO - Online",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d2mrwdpt82ii2z.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "planosvivointernet.com.br",
+            "TlsIP": "planosvivointernet.com.br",
+            "ProxyIP": "planosvivointernet.com.br",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Tim - Credito | Plano",
+            "FLAG": "tim",
+            "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "auth-uat-us.surveymonkey.com",
+            "TlsIP": "104.18.7.22",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "Tim - Online",
+            "FLAG": "tim",
+            "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "duvidas.ampli.com.br",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "104.16.53.111",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
         {
             "Name": "CLARO",
             "FLAG": "claro",
