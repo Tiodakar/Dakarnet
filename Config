@@ -1,5 +1,5 @@
 {
-    "Version": "127",
+    "Version": "128",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -64,7 +64,7 @@
             "TlsIP": "104.16.53.111",
             "ProxyIP": "",
             "ProxyPort": "443",
-            "Info": "Proxy"
+            "Info": "Tlsws"
         },
         {
             "Name": "CLARO",
