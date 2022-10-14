@@ -1,5 +1,5 @@
 {
-    "Version": "129",
+    "Version": "124",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -47,7 +47,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Tim - Credito | Plano",
+            "Name": "Tim - Online",
             "FLAG": "tim",
             "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "auth-uat-us.surveymonkey.com",
@@ -55,19 +55,9 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        },
-        {
-            "Name": "Tim - Online",
-            "FLAG": "tim",
-            "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Upgrade: Websocket[crlf][crlf]",
-            "SNI": "duvidas.ampli.com.br",
-            "TlsIP": "104.16.53.111",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },
-        {
-            "Name": "CLARO",
+       },   
+       {
+            "Name": "Claro Credito | Plano",
             "FLAG": "claro",
             "Payload": "GET wss://Atendimento.descomplica.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "Atendimento.descomplica.com.br",
