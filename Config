@@ -1,5 +1,5 @@
 {
-    "Version": "128",
+    "Version": "126",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -27,44 +27,44 @@
     ],
     "Networks": [
         {
-      "Name": "VIVO - Vivo Easy",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "vivo360.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+            "Name": "VIVO - Vivo Easy",
+            "FLAG": "vivo",
+            "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "vivo360.vivo.com.br",
+            "TlsIP": "104.18.6.80",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Info": "Tlsws"
         },
         {
-      "Name": "VIVO - Online",
-      "FLAG": "vivo",
-      "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "auth-uat-us.surveymonkey.com",
-      "TlsIP": "104.18.7.22",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+            "Name": "Vivo - Online",
+            "FLAG": "vivo",
+            "Payload": "GET wss://assets-sf.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "assets-sf.c6bank.com.br",
+            "TlsIP": "104.16.237.16",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
         },
         {
-      "Name": "Tim - Online",
-      "FLAG": "tim",
-      "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "auth-uat-us.surveymonkey.com",
-      "TlsIP": "104.18.7.22",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+            "Name": "TIM",
+            "FLAG": "tim",
+            "Payload": "GET wss://assets-sf.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "assets-sf.c6bank.com.br",
+            "TlsIP": "104.16.237.16",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
         },   
         {
-      "Name": "CLARO",
-      "FLAG": "claro",
-      "Payload": "GET wss://Atendimento.descomplica.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "Atendimento.descomplica.com.br",
-      "TlsIP": "Atendimento.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   }
+            "Name": "CLARO",
+            "FLAG": "claro",
+            "Payload": "GET wss://Atendimento.descomplica.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "Atendimento.descomplica.com.br",
+            "TlsIP": "Atendimento.descomplica.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        }
     ]
 }
