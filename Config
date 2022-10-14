@@ -62,7 +62,7 @@
             "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "duvidas.ampli.com.br",
             "TlsIP": "104.16.53.111",
-            "ProxyIP": "104.16.53.111",
+            "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
         },
