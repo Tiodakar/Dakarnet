@@ -1,5 +1,5 @@
 {
-    "Version": "124",
+    "Version": "125",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -35,6 +35,16 @@
             "ProxyIP": "",
             "ProxyPort": "",
             "Info": "Tlsws"
+        },
+        {
+	        "Name": "VIVO - CloudFront",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d2mrwdpt82ii2z.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "d2mrwdpt82ii2z.cloudfront.net",
+            "TlsIP": "d2mrwdpt82ii2z.cloudfront.net",
+            "ProxyIP": "d2mrwdpt82ii2z.cloudfront.net",
+            "ProxyPort": "80",
+            "Info": "Proxy"
         },
         {
 "Name": "TIM 01 ATIVO",
