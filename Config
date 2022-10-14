@@ -1,5 +1,5 @@
 {
-    "Version": "129",
+    "Version": "130",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -57,12 +57,12 @@
             "Info": "Tlsws"
         },
         {
-           "Name": "✅️TIM nova [04]",
+           "Name": "Tim - Online",
            "FLAG": "tim",
-           "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [crlf]Upgrade: websocket[crlf][crlf]",
-           "SNI": "auth-uat-us.surveymonkey.com",
-           "TlsIP": "auth-uat-us.surveymonkey.com",
-           "ProxyIP": "auth-uat-us.surveymonkey.com",
+           "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: http://d2mrwdpt82ii2z.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "http://duvidas.ampli.com.br",
+           "TlsIP": "104.16.53.111",
+           "ProxyIP": "104.16.53.111",
            "ProxyPort": "443",
            "Info": "Tlsws"
         },
