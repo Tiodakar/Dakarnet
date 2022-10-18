@@ -1,5 +1,5 @@
 {
-    "Version": "126",
+    "Version": "127",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -22,7 +22,7 @@
             "ServerPort": "22",
             "SSLPort": "443",
             "USER": "",
-            "PASS": "2022"
+            "PASS": ""
         }
     ],
     "Networks": [
