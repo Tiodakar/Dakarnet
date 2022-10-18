@@ -85,26 +85,6 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        },
-        {
-            "Name": "Claro - Testing",
-            "FLAG": "claro",
-            "Payload": "GET http://brunaclaro.com.br HTTP/1.0[crlf]Host: [app_host]http://brunaclaro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "",
-            "ProxyPort": "80",
-            "Info": "Direct"
-       },
-       {
-           "Name": "Claro - Testing",
-           "FLAG": "claro",
-           "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-           "SNI": "",
-           "TlsIP": "",
-           "ProxyIP": "",
-           "ProxyPort": "80",
-           "Info": "Direct"
-       }
+        }
     ]
 }
