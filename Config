@@ -1,5 +1,5 @@
 {
-    "Version": "124",
+    "Version": "125",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -55,7 +55,17 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-       },   
+       },
+       {
+            "Nome": "Tim - Teste",
+            "BANDEIRA": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d2mrwdpt82ii2z.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "20.226.27.246",
+            "ProxyPort": "80",
+            "Informações": "Proxy"
+       },  
        {
             "Name": "Claro Credito | Plano",
             "FLAG": "claro",
