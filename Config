@@ -1,5 +1,5 @@
 {
-    "Version": "129",
+    "Version": "139",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -85,6 +85,26 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        }
+        },
+        {
+            "Name": "Claro - Testing",
+            "FLAG": "claro",
+            "Payload": "GET http://brunaclaro.com.br HTTP/1.0[crlf]Host: [app_host]http://brunaclaro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "80",
+            "Info": "Direct"
+       },
+       {
+           "Name": "Claro - Testing",
+           "FLAG": "CLARO",
+           "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+           "SNI": "",
+           "TlsIP": "",
+           "ProxyIP": "",
+           "ProxyPort": "80",
+           "Info": "Direct"
+       }
      ]
 }
