@@ -1,5 +1,5 @@
-{
-    "Version": "127",
+ {
+    "Version": "128",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -62,7 +62,7 @@
             "Payload": "GET / HTTP/1.1[crlf]Host: d2mrwdpt82ii2z.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "20.226.27.246",
+            "ProxyIP": "65.8.248.59",
             "ProxyPort": "80",
             "Info": "Proxy"
        },  
