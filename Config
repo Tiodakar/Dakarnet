@@ -1,5 +1,5 @@
 {
-    "Version": "139",
+    "Version": "128",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -26,7 +26,7 @@
         }
     ],
     "Networks": [
-{
+        {
             "Name": "VIVO - Credito | Plano",
             "FLAG": "vivo",
             "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
@@ -55,8 +55,8 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-       },
-       {
+        },
+        {
             "Name": "Tim - Online",
             "FLAG": "tim",
             "Payload": "GET / HTTP/1.1[crlf]Host: d2mrwdpt82ii2z.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
@@ -65,8 +65,8 @@
             "ProxyIP": "65.8.248.59",
             "ProxyPort": "80",
             "Info": "Proxy"
-       },
-       {
+        },
+        {
             "Name": "Claro - Online ",
             "FLAG": "claro",
             "Payload": "GET / HTTP/1.1[crlf]Host: http://d2mrwdpt82ii2z.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
@@ -75,8 +75,8 @@
             "ProxyIP": "wfl.localizame.claro.com.gt",
             "ProxyPort": "80",
             "Info": "Proxy"
-       },
-       {
+        },
+        {
             "Name": "Claro Credito | Plano",
             "FLAG": "claro",
             "Payload": "GET wss://Atendimento.descomplica.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -95,16 +95,16 @@
             "ProxyIP": "",
             "ProxyPort": "80",
             "Info": "Direct"
-       },
-       {
+        },
+        {
            "Name": "Claro - Testing",
-           "FLAG": "CLARO",
+           "FLAG": "claro",
            "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
            "SNI": "",
            "TlsIP": "",
            "ProxyIP": "",
            "ProxyPort": "80",
            "Info": "Direct"
-       }
+        }
      ]
 }
