@@ -1,5 +1,5 @@
 {
-    "Version": "127",
+    "Version": "129",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -26,7 +26,7 @@
         }
     ],
     "Networks": [
-        {
+{
             "Name": "VIVO - Credito | Plano",
             "FLAG": "vivo",
             "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
@@ -86,5 +86,5 @@
             "ProxyPort": "443",
             "Info": "Tlsws"
         }
-    ]
+     ]
 }
