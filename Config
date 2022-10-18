@@ -1,5 +1,5 @@
- {
-    "Version": "129",
+{
+    "Version": "130",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -75,7 +75,7 @@
             "ProxyIP": "wfl.localizame.claro.com.gt",
             "ProxyPort": "80",
             "Info": "Proxy"
-}
+       },
        {
             "Name": "Claro Credito | Plano",
             "FLAG": "claro",
