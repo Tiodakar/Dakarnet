@@ -1,5 +1,5 @@
 {
-    "Version": "130",
+    "Version": "131",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -18,7 +18,7 @@
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "dakarnet.cloudeasyoficial.xyz",
-            "CheckUser": "dakarnet-check.cloudeasyoficial.xyz:5454/checkUser",
+            "CheckUser": "https://dakarnet-check.cloudeasyoficial.xyz:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
             "USER": "",
@@ -39,7 +39,7 @@
         {
             "Name": "VIVO - Online",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d2mrwdpt82ii2z.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "planosvivointernet.com.br",
             "TlsIP": "planosvivointernet.com.br",
             "ProxyIP": "planosvivointernet.com.br",
@@ -59,7 +59,7 @@
        {
             "Name": "Tim | Oi - Online",
             "FLAG": "tim",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d2mrwdpt82ii2z.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "65.8.248.59",
