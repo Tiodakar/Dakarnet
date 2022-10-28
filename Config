@@ -1,5 +1,5 @@
 {
-    "Version": "125",
+    "Version": "126",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -35,6 +35,36 @@
             "ProxyIP": "",
             "ProxyPort": "",
             "Info": "Tlsws"
+        },
+        }
+            "Name": "☆ Vivo - Online ",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host:  http://d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "52.85.213.82",
+            "ProxyIP": "52.85.213.82",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "☆ Tim 01 - Online",
+            "FLAG": "tim",
+            "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "auth-uat-us.surveymonkey.com",
+            "TlsIP": "104.18.7.22",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "☆Tim 02 - Online",
+            "FLAG": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "65.8.248.59",
+            "ProxyPort": "80",
+            "Info": "Proxy"
         }
     ]
 }
