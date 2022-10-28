@@ -1,5 +1,5 @@
 {
-    "Version": "126",
+    "Version": "128",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -45,16 +45,6 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        },
-        {
-            "Name": "☆Tim 02 - Online",
-            "FLAG": "tim",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "65.8.248.59",
-            "ProxyPort": "80",
-            "Info": "Proxy"
         }
     ]
 }
