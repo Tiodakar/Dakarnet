@@ -1,5 +1,5 @@
 {
-    "Version": "133",
+    "Version": "134",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -75,6 +75,6 @@
             "ProxyIP": "contratecontrole.tim.com.br",
             "ProxyPort": "80",
             "Info": "Proxy"
-        },
+        }
     ]
 }
