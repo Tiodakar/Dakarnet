@@ -59,7 +59,7 @@
         {
             "Name": "Vivo 03 - Online",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host:  cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host:  d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "52.85.213.82",
             "ProxyIP": "52.85.213.82",
