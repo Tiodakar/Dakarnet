@@ -66,15 +66,15 @@
             "ProxyPort": "80",
             "Info": "Proxy"
        },
-       {
-            "Name": "Tim - 02 Testing",
+{
+            "Name": "Tim teste",
             "FLAG": "tim",
-            "Payload": "GET wss://d3gp9d22x4kyc.cloudfront.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "18.64.174.27",
-            "ProxyIP": "18.64.174.27",
-            "ProxyPort": "443",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "contratecontrole.tim.com.br",
+            "TlsIP": "contratecontrole.tim.com.br",
+            "ProxyIP": "contratecontrole.tim.com.br",
+            "ProxyPort": "80",
             "Info": "Proxy"
-        }
+        },
     ]
 }
