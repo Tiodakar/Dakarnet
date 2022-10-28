@@ -1,5 +1,5 @@
 {
-    "Version": "140",
+    "Version": "141",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -85,7 +85,6 @@
             "ProxyIP": "65.8.248.59",
             "ProxyPort": "80",
             "Info": "Proxy"
-        },
- 
+        }
     ]
 }
