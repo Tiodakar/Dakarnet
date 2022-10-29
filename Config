@@ -1,5 +1,5 @@
 {
-    "Version": "128",
+    "Version": "129",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -45,6 +45,16 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM FRONT 1",
+            "FLAG": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host: http://d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "contratecontrole.tim.com.br",
+            "TlsIP": "contratecontrole.tim.com.br",
+            "ProxyIP": "contratecontrole.tim.com.br",
+            "ProxyPort": "80",
+            "Info": "Proxy"
         }
     ]
 }
