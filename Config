@@ -1,5 +1,5 @@
 {
-    "Version": "126",
+    "Version": "128",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -39,7 +39,7 @@
         {
             "Name": "Vivo - Online",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host:  http://d3gp9d22x4kyc.cloudfront.net: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host:  httd3gp9d22x4kyc.cloudfront.net: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "52.85.213.82",
             "ProxyIP": "52.85.213.82",
