@@ -1,5 +1,5 @@
 {
-    "Version": "131",
+    "Version": "125",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -47,12 +47,12 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "TIM FRONT 1",
+            "Name": "Tim  02 - Online [Lentidao]",
             "FLAG": "tim",
-            "Payload": "GET / HTTP/1.1[crlf]Host: http://d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "SNI": "contratecontrole.tim.com.br",
-            "TlsIP": "contratecontrole.tim.com.br",
-            "ProxyIP": "contratecontrole.tim.com.br",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "65.8.248.59",
             "ProxyPort": "80",
             "Info": "Proxy"
         }
