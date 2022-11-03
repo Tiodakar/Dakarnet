@@ -1,5 +1,5 @@
 {
-    "Version": "129",
+    "Version": "131",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -95,7 +95,7 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        }
+        },
         {
             "Name": "Vivo 07 - [CloudFront]",
             "FLAG": "vivo",
@@ -135,7 +135,7 @@
             "ProxyIP": "",
             "ProxyPort": "",
             "Info": "Tlsws"
-      D5 }
+       },
        {
             "Name": "Tim  04 - [Manutenção]",
             "FLAG": "tim",
