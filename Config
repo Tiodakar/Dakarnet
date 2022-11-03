@@ -1,5 +1,5 @@
 {
-    "Version": "125",
+    "Version": "126",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -117,9 +117,9 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "Tim 02 - Online",
+            "Name": "☆ Tim 02 - Online",
             "FLAG": "tim",
-            "Payload": "GET wss://api.onesignal.com HTTP/1.1[crlf]Host: conexaossh.online[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET wss://api.onesignal.com HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "api.onesignal.com",
             "TlsIP": "api.onesignal.com",
             "ProxyIP": "",
@@ -127,9 +127,9 @@
             "Info": "Tlsws"
        },
        {
-            "Name": "Tim 03 - Online",
+            "Name": "☆ Tim 03 - Online",
             "FLAG": "tim",
-            "Payload": "GET wss://mobile.c6bank.app HTTP/1.1[crlf]Host: conexaossh.online[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET wss://mobile.c6bank.app HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "mobile.c6bank.app",
             "TlsIP": "mobile.c6bank.app",
             "ProxyIP": "",
@@ -137,7 +137,7 @@
             "Info": "Tlsws"
        },
        {
-            "Name": "Tim  04 - Manutenção",
+            "Name": "☆ Tim  04 - Manutenção",
             "FLAG": "tim",
             "Payload": "GET / HTTP/1.1[crlf]Host: d3gp9d22x4kyc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
