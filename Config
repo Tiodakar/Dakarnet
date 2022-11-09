@@ -135,13 +135,16 @@
             "ProxyIP": "",
             "ProxyPort": "",
             "Info": "Tlsws"
-       },{
+       },
+      {
       "Name": "TIM FRONT",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: http://d1kprsxysnypcd.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d1kprsxysnypcd.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "contratecontrole.tim.com.br",
       "TlsIP": "",
       "ProxyIP": "contratecontrole.tim.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
-      },
+      }
+   ]
+}
