@@ -85,7 +85,7 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        {,
+        },
         {
             "Name": "Vivo Online",
             "FLAG": "vivo",
