@@ -1,5 +1,5 @@
 {
-    "Version": "135",
+    "Version": "136",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -17,7 +17,7 @@
             "Name": "DakarNET Gratis",
             "TYPE": "premium",
             "FLAG": "br.png",
-            "ServerIP": "",
+            "ServerIP": "http://dakar.angelsystem.cf",
             "CheckUser": "http://dakarnet-check.cloudeasyoficial.xyz:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
@@ -27,7 +27,7 @@
     ],
     "Networks": [
         {
-            "Name": "☆ Tim 01 - Online",
+            "Name": "☆ Tim - Survey",
             "FLAG": "tim",
             "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "auth-uat-us.surveymonkey.com",
@@ -37,17 +37,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "☆ Tim 02 - Online",
-            "FLAG": "tim",
-            "Payload": "GET wss://api.onesignal.com HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "SNI": "api.onesignal.com",
-            "TlsIP": "api.onesignal.com",
-            "ProxyIP": "",
-            "ProxyPort": "",
-            "Info": "Tlsws"
-       },
-       {
-            "Name": "☆ Tim 03 - Online",
+            "Name": "☆ Tim - C6Bank",
             "FLAG": "tim",
             "Payload": "GET wss://mobile.c6bank.app HTTP/1.1[crlf]Host: dakarnet.cloudeasyoficial.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "mobile.c6bank.app",
@@ -57,6 +47,26 @@
             "Info": "Tlsws"
         },
         {
+            "Name": "Tim - Cloud",
+            "FLAG": "tim",
+            "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "mobilidade.cloud.caixa.gov.br",
+            "TlsIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "Vivo - Cloud",
+            "FLAG": "vivo",
+            "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "mobilidade.cloud.caixa.gov.br",
+            "TlsIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+       },     
+       {
             "Name": "☆ Vivo - Plano ",
             "FLAG": "vivo",
             "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
@@ -67,17 +77,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "Vivo 01 - Online",
-            "FLAG": "vivo",
-            "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-            "SNI": "uploads.api.new.livestream.com",
-            "TlsIP": "104.16.53.111",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },
-        {
-            "Name": "Vivo 02 - Online",
+            "Name": "Vivo - Survey",
             "FLAG": "vivo",
             "Payload": "GET wss://itsupport.surveymonkey.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "itsupport.surveymonkey.com",
@@ -87,7 +87,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "Vivo Online",
+            "Name": "Vivo - Uploads",
             "FLAG": "vivo",
             "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "uploads.api.new.livestream.com",
@@ -96,5 +96,25 @@
             "ProxyPort": "443",
             "Info": "Tlsws"
         }
+        {
+            "Name": "Claro - Cloud",
+            "FLAG": "claro",
+            "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "mobilidade.cloud.caixa.gov.br",
+            "TlsIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+       },
+       {
+            "Name": "Oi- Cloud",
+            "FLAG": "oi",
+            "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "mobilidade.cloud.caixa.gov.br",
+            "TlsIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+       }
    ]
 }
