@@ -1,5 +1,5 @@
 {
-    "Version": "138",
+    "Version": "137",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -26,7 +26,7 @@
         }
     ],
     "Networks": [
-        {
+       {
             "Name": "☆ Tim - Survey",
             "FLAG": "tim",
             "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -47,7 +47,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "Tim - Cloud",
+            "Name": "☆ Tim - Cloud",
             "FLAG": "tim",
             "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -55,9 +55,9 @@
             "ProxyIP": "mobilidade.cloud.caixa.gov.br",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        },
-        {
-            "Name": "Vivo - Cloud",
+       },
+       {
+            "Name": "☆ Vivo - Cloud",
             "FLAG": "vivo",
             "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -75,9 +75,9 @@
             "ProxyIP": "",
             "ProxyPort": "",
             "Info": "Tlsws"
-        },
-        {
-            "Name": "Vivo - Survey",
+       },
+       {
+            "Name": "☆ Vivo - Survey",
             "FLAG": "vivo",
             "Payload": "GET wss://itsupport.surveymonkey.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "itsupport.surveymonkey.com",
@@ -85,9 +85,9 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        },
-        {
-            "Name": "Vivo - Uploads",
+       },
+       {
+            "Name": "☆ Vivo - Uploads",
             "FLAG": "vivo",
             "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "uploads.api.new.livestream.com",
@@ -95,9 +95,9 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        },
-        {
-            "Name": "Claro - Cloud",
+       },
+       {
+            "Name": "☆ Claro - Cloud",
             "FLAG": "claro",
             "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "mobilidade.cloud.caixa.gov.br",
