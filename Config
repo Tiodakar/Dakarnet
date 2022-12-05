@@ -95,7 +95,7 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        }
+        },
         {
             "Name": "Claro - Cloud",
             "FLAG": "claro",
