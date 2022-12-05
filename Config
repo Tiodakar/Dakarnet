@@ -17,7 +17,7 @@
             "Name": "DakarNET Gratis",
             "TYPE": "premium",
             "FLAG": "br.png",
-            "ServerIP": "http://dakar.angelsystem.cf",
+            "ServerIP": "",
             "CheckUser": "http://dakarnet-check.cloudeasyoficial.xyz:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
