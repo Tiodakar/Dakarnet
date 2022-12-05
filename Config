@@ -1,5 +1,5 @@
 {
-    "Version": "138",
+    "Version": "139",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -26,16 +26,6 @@
         }
     ],
     "Networks": [
-       {
-            "Name": "☆ Tim - Survey",
-            "FLAG": "tim",
-            "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "auth-uat-us.surveymonkey.com",
-            "TlsIP": "104.18.7.22",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },
         {
             "Name": "☆ Tim - C6Bank",
             "FLAG": "tim",
@@ -47,26 +37,6 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "☆ Tim - Cloud",
-            "FLAG": "tim",
-            "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "mobilidade.cloud.caixa.gov.br",
-            "TlsIP": "mobilidade.cloud.caixa.gov.br",
-            "ProxyIP": "mobilidade.cloud.caixa.gov.br",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-       },
-       {
-            "Name": "☆ Vivo - Cloud",
-            "FLAG": "vivo",
-            "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "mobilidade.cloud.caixa.gov.br",
-            "TlsIP": "mobilidade.cloud.caixa.gov.br",
-            "ProxyIP": "mobilidade.cloud.caixa.gov.br",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-       },     
-       {
             "Name": "☆ Vivo - Plano ",
             "FLAG": "vivo",
             "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
