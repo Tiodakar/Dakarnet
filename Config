@@ -1,5 +1,5 @@
 {
-    "Version": "137",
+    "Version": "138",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -15,7 +15,7 @@
     "Servers": [
         {
             "Name": "DakarNET Gratis",
-            "TYPE": "premium",
+            "TYPE": "free",
             "FLAG": "br.png",
             "ServerIP": "http://dakar.angelsystem.cf",
             "CheckUser": "http://dakarnet-check.cloudeasyoficial.xyz:5454/checkUser",
