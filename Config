@@ -1,5 +1,5 @@
 {
-    "Version": "143",
+    "Version": "144",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -21,8 +21,8 @@
             "CheckUser": "http://dakarnet01-check.cloudeasyoficial.xyz:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
-            "USER": "Gratis",
-            "PASS": "Gratis"
+            "USER": "gratis",
+            "PASS": "gratis"
         }
     ],
     "Networks": [
