@@ -1,5 +1,5 @@
 {
-    "Version": "147",
+    "Version": "148",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -56,13 +56,23 @@
              "ProxyPort": "80",
              "Info": "Proxy"
         },
-       {
+        {
             "Name": "☆ Tim [Auth]",
             "FLAG": "tim",
             "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "auth-uat-us.surveymonkey.com",
             "TlsIP": "104.18.7.22",
             "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "╰┈[☞>📱 𝐕𝐈𝐕𝐎 - ATIVO 1📡🚀🟣",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Websocket[crlf]Upgrade: Keep-Alive[crlf][crlf]",
+            "SNI": "[app_host]",
+            "TlsIP": "162.159.135.63",
+            "ProxyIP": "gedoc.vivo.com.br",
             "ProxyPort": "443",
             "Info": "Tlsws"
         },
