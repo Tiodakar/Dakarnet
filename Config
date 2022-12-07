@@ -1,5 +1,5 @@
 {
-    "Version": "148",
+    "Version": "149",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -67,7 +67,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "╰┈[☞>📱 𝐕𝐈𝐕𝐎 - ATIVO 1📡🚀🟣",
+            "Name": "☆ Vivo [Gedoc]",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Websocket[crlf]Upgrade: Keep-Alive[crlf][crlf]",
             "SNI": "[app_host]",
