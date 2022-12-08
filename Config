@@ -1,5 +1,5 @@
 {
-    "Version": "150",
+    "Version": "151",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -35,6 +35,16 @@
             "ProxyIP": "104.16.53.111",
             "ProxyPort": "443",
             "Info": "Tlsws"
+        },
+        { 
+             "Name": "☆ Tim [SongBird]",
+             "FLAG": "TIM",
+             "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf] ",
+             "SNI": "songbird.cardinalcommerce.com",
+             "TlsIP": "198.217.251.250",
+             "ProxyIP": "",
+             "ProxyPort": "443",
+             "Info": "Tlsws"
         },
         { 
              "Name": "☆ Tim [Proxy]",
