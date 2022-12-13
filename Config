@@ -1,5 +1,5 @@
 {
-    "Version": "152",
+    "Version": "153",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -26,7 +26,17 @@
         }
     ],
     "Networks": [
-       {
+       { 
+             "Name": "☆ Tim [Cloud]",
+             "FLAG": "TIM",
+             "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf] ",
+             "SNI": "songbird.cardinalcommerce.com",
+             "TlsIP": "198.217.251.250",
+             "ProxyIP": "",
+             "ProxyPort": "443",
+             "Info": "Tlsws"
+        },
+        {
             "Name": "☆ Tim [Ampli]",
             "FLAG": "tim",
             "Payload": "GET wss://duvidas.ampli.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
@@ -75,6 +85,16 @@
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
+        },
+        { 
+             "Name": "☆ Vivo [Cloud]",
+             "FLAG": "vivo",
+             "Payload": "GET / HTTP/1.0[crlf]Host: [app_host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
+             "SNI": "",
+             "TlsIP": "",
+             "ProxyIP": "198.217.251.250",
+             "ProxyPort": "80",
+             "Info": "Proxy"
         },
         {
             "Name": "☆ Vivo [Gedoc]",
