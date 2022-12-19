@@ -1,5 +1,5 @@
 {
-    "Version": "153",
+    "Version": "154",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -36,6 +36,16 @@
              "ProxyPort": "443",
              "Info": "Tlsws"
         },
+        {
+            "Name": "☆ Tim [Proppatch]",
+            "FLAG": "tim",
+            "Payload": "PROPPATCH plus.google.com HTTP/2.0[crlf]Host: plus.google.com [crlf]Connection: upgrade, Keep-Alive-Status 101[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)@mateuscmf[crlf]Referer: http://www.google.com[crlf]",  
+            "SNI": "",
+            "TlsIP": "", 
+            "ProxyIP": "dakarnet01.cloudeasyoficial.xyz",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
         {
             "Name": "☆ Tim [Ampli]",
             "FLAG": "tim",
