@@ -1,5 +1,5 @@
 {
-    "Version": "141",
+    "Version": "143",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -27,7 +27,7 @@
     ],
     "Networks": [
 {
-             "Name": "● Tim - Online [23/12]",
+             "Name": "● Tim - Tim Kaue",
              "FLAG": "tim",
              "Payload": "GET-OI ws://grabtaxi.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
              "SNI": "zendesk4.grabtaxi.com",
