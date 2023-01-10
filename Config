@@ -29,7 +29,7 @@
 {
       "Name": "• Tim - Online 09/01",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: http://dvhphws7lhx6g.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: dvhphws7lhx6g.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "18.161.200.111",
@@ -38,7 +38,7 @@
 },{
       "Name": "▪︎ Vivo - Online 09/01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: http://dvhphws7lhx6g.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: dvhphws7lhx6g.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.85.213.48",
