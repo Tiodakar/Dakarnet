@@ -1,5 +1,5 @@
 {
-    "Version": "147",
+    "Version": "148",
     "ReleaseNotes": "Nova atualização disponível!",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -26,8 +26,6 @@
         }
     ],
     "Networks": [
-TIM FRONT
-
 {
       "Name": "• Tim - Online 09/01",
       "FLAG": "tim",
