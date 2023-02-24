@@ -1,5 +1,5 @@
 {
-    "Version": "149",
+    "Version": "150",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -87,7 +87,7 @@
        "Info": "Proxy"
 },
 {
-      "Name": " 🔵TIM DIRECT",
+      "Name": "☆ Tim - Premium 03",
       "FLAG": " tim", 
       "Payload": "HTTP/1.1[crlf] [crlf][crlf]•", 
       "SNI": "", 
