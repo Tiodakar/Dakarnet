@@ -98,7 +98,16 @@ MODO DIRECT PROXY
 --------------------
 ABAIXO CONEXÕES PARA CONECTAR AO SERVIDOR DEDICADO A TIM
 
-
+{ 
+"Name":"🔵 TIM TODOS DDS🔵", 
+"FLAG":"tim", 
+"Payload":"GET / HTTP/1.1[lf]Host: landing.stoodi.com.br[lf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /?/ HTTP/1.1[lf]Host: [app_host] [lf]Expect: 100-continue[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]", 
+"SNI":"speedzhx.net", 
+"TlsIP":"104.16.53.111", 
+"ProxyIP":"104.16.53.111", 
+"ProxyPort":"80", 
+"Info":"Proxy" 
+}
 {
    "Name": "Tin Payload Premium ",
        "FLAG": "vivo",
