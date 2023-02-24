@@ -1,5 +1,5 @@
 {
-    "Version": "142",
+    "Version": "143",
     "ReleaseNotes": "Um viado viu essa mensagem",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -14,11 +14,11 @@
     ],
     "Servers": [
         {
-            "Name": "voce e gay",
+            "Name": "Servidor - BR 01",
             "TYPE": "free",
             "FLAG": "br.png",
-            "ServerIP": "dakarnet01.cloudeasyoficial.xyz",
-            "CheckUser": "http://dakarnet01-check.cloudeasyoficial.xyz:5454/checkUser",
+            "ServerIP": "wolrdmasater.com.br",
+            "CheckUser": "wolrdmasater.com.br:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
             "USER": "",
@@ -26,6 +26,7 @@
         }
     ],
     "Networks": [
+
 
     ]
 }
