@@ -1,6 +1,6 @@
 {
     "Version": "143",
-    "ReleaseNotes": "Um viado viu essa mensagem",
+    "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
     "EmailFeedback": "contato@dakarnet.com.br",
@@ -15,7 +15,7 @@
     "Servers": [
         {
             "Name": "Servidor - BR 01",
-            "TYPE": "free",
+            "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "wolrdmasater.com.br",
             "CheckUser": "wolrdmasater.com.br:5454/checkUser",
