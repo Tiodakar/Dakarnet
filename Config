@@ -1,5 +1,5 @@
 {
-    "Version": "132",
+    "Version": "133",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -57,7 +57,7 @@
        "Info": "Tlsws"
 },
 {
-         "Name": " 🔵TIM DIRECT",
+       "Name": " 🔵TIM DIRECT",
       "FLAG": " tim", 
       "Payload": "HTTP/1.1[crlf] [crlf][crlf]•", 
       "SNI": "", 
