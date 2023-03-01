@@ -1,5 +1,5 @@
 {
-    "Version": "133",
+    "Version": "134",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -85,6 +85,16 @@
        "ProxyIP": "104.19.240.25",
        "ProxyPort": "80",
        "Info": "Proxy"
+},
+{ 
+ "Name":"🔵 TIM TODOS DDS🔵", 
+"FLAG":"tim", 
+"Payload":"GET / HTTP/1.1[lf]Host: landing.stoodi.com.br[lf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /?/ HTTP/1.1[lf]Host: [app_host] [lf]Expect: 100-continue[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]", 
+"SNI":"wolrdmasater.com.br", 
+"TlsIP":"104.16.53.111", 
+"ProxyIP":"104.16.53.111", 
+"ProxyPort":"80", 
+"Info":"Proxy" 
 },
 {
       "Name": "☆ Tim - Premium 04",
