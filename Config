@@ -1,5 +1,5 @@
 {
-    "Version": "145",
+    "Version": "146",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -105,6 +105,18 @@
       "ProxyIP": "139.177.195.144", 
       "ProxyPort": "80", 
       "Info": "Proxy"
+},
+      {
+      "Name": "☆ Tim - Premium 06",
+      "FLAG": " tim", 
+      "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf]BASELINE-CONTROL / HTTP/1.1[crlf]Host: Vpn.wolrdmasater.com.br[crlf]Expect: 100-continue[crlf]_BASELINE-CONTROL wss://mobile.c6bank.app/ HTTP/1.1[crlf]Host: br5oku.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
+      "SNI": "", 
+      "TlsIP": "", 
+      "ProxyIP": "104.18.28.182", 
+      "ProxyPort": "80", 
+      "Info": "Proxy"
+} 
+]
 }
-  ]
-}
+
+
