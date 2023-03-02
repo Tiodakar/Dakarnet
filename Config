@@ -1,5 +1,5 @@
 {
-    "Version": "146",
+    "Version": "147",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -27,14 +27,14 @@
     ],
     "Networks": [
 {   
-       "Name": "☆ Vivo - Premium 01",
-       "FLAG": "vivo",
-       "Payload": "GET / HTTP/1.1[crlf]Host: d3ji3em7gdy2mc.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "52.85.213.82",
-       "ProxyPort": "80",
-       "Info": "Proxy"
+        "Name": " vivo modo direct",
+      "FLAG": " vivo modo direct", 
+      "Payload": "GET / HTTP/1.1[crlf]Host:[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+      "SNI": "", 
+      "TlsIP": "", 
+      "ProxyIP": "139.177.195.144", 
+      "ProxyPort": "80", 
+      "Info": "Proxy"
 },
 {    
        "Name": "☆ Vivo - Premium 02",
