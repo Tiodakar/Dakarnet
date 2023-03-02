@@ -1,5 +1,5 @@
 {
-    "Version": "152",
+    "Version": "153",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -13,7 +13,18 @@
         }
     ],
     "Servers": [
-        {
+{
+            "Name": "Servidor - BR 01",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "http://familia1.vpnhomersimpsons.online",
+            "CheckUser": "http://139.177.195.144:5555/checkUser",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+},
+{
             "Name": "Servidor - BR 02",
             "TYPE": "premium",
             "FLAG": "br.png",
@@ -23,18 +34,18 @@
             "SSLPort": "443",
             "USER": "",
             "PASS": ""
-        }
+}
     ],
     "Networks": [
 {   
-        "Name": " vivo modo direct",
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host:[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "139.177.195.144", 
-      "ProxyPort": "80", 
-      "Info": "Proxy"
+            "Name": " vivo modo direct",
+            "FLAG": "vivo", 
+            "Payload": "GET / HTTP/1.1[crlf]Host:[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+            "SNI": "", 
+            "TlsIP": "", 
+            "ProxyIP": "139.177.195.144", 
+            "ProxyPort": "80", 
+            "Info": "Proxy"
 },
 {
             "Name": "🟣VIVO/🔵TIM LANDING✅",
