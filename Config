@@ -1,5 +1,5 @@
 {
-    "Version": "147",
+    "Version": "149",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -28,12 +28,22 @@
     "Networks": [
 {   
         "Name": " vivo modo direct",
-      "FLAG": " vivo modo direct", 
+      "FLAG": "vivo", 
       "Payload": "GET / HTTP/1.1[crlf]Host:[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
       "SNI": "", 
       "TlsIP": "", 
       "ProxyIP": "139.177.195.144", 
       "ProxyPort": "80", 
+      "Info": "Proxy"
+},
+{
+      "Name": "🔵TIM-vivo",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: landing.stoodi.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: Vpn.wolrdmasater.com.br [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "helpypro.stoodi.com.br",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
       "Info": "Proxy"
 },
 {    
