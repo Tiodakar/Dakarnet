@@ -1,6 +1,6 @@
 {
-    "Version": "142",
-    "ReleaseNotes": " SEJA BEM VINDO",
+    "Version": "143",
+    "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
     "EmailFeedback": "sac@wordmasater.com",
@@ -97,7 +97,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "☆ Tim - Premium 04",
+      "Name": "☆ Tim- Premium 04",
       "FLAG": " tim", 
       "Payload": "HTTP/1.1[crlf] [crlf][crlf]•", 
       "SNI": "", 
