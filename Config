@@ -1,5 +1,5 @@
 {
-    "Version": "136",
+    "Version": "137",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -62,7 +62,7 @@
       "Payload": "HTTP/1.1[crlf] [crlf][crlf]•", 
       "SNI": "", 
       "TlsIP": "", 
-      "ProxyIP": "wolrdmasater.com.br", 
+      "ProxyIP": "139.177.195.144", 
       "ProxyPort": "80", 
       "Info": "Proxy"
 },
@@ -102,7 +102,7 @@
       "Payload": "HTTP/1.1[crlf] [crlf][crlf]•", 
       "SNI": "", 
       "TlsIP": "", 
-      "ProxyIP": "wolrdmasater.com.br", 
+      "ProxyIP": "139.177.195.144", 
       "ProxyPort": "80", 
       "Info": "Proxy"
 }
