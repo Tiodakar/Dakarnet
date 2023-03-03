@@ -1,5 +1,5 @@
 {
-    "Version": "158",
+    "Version": "159",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -34,6 +34,16 @@
             "TlsIP": "", 
             "ProxyIP": "139.177.195.144", 
             "ProxyPort": "80", 
+            "Info": "Proxy"
+},
+{
+            "Name": "VIVO FRONT",
+            "FLAG": "vivo",
+            "Payload": "GET  / HTTP/1.1[crlf]Host: [random= d2ezbdsl5bdhs0.cloudfront.net][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf]Upgrade: TOPSPEED[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "recarga.vivo.com.br",
+            "ProxyPort": "80",
             "Info": "Proxy"
 },
  {
