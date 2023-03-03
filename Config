@@ -1,5 +1,5 @@
 {
-    "Version": "155",
+    "Version": "156",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -77,15 +77,15 @@
        "ProxyPort": "443",
        "Info": "Tlsws"
 },
-{
-       "Name": " 🔵TIM DIRECT",
-      "FLAG": " tim", 
-      "Payload": "HTTP/1.1[crlf] [crlf][crlf]•", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "139.177.195.144", 
-      "ProxyPort": "80", 
-      "Info": "Proxy"
+ {
+            "Name": "TIM mega",
+            "FLAG": "tim",
+            "Payload": "GET / HTTP/1.1\r\nHost: support.deezer.com\r\nExpect: 100-continue\r\n\r\n[split]\r\n\r\nACL /?/ HTTP/1.1\r\nHost: [app_host]\r\nExpect: 100-continue\r\nUpgrade: websocket\r\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\r\n\r\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Info": "Proxy"
 },
 {
        "Name": "☆ Tim - Premium 02",
