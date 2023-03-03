@@ -1,5 +1,5 @@
 {
-    "Version": "157",
+    "Version": "158",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -13,17 +13,6 @@
         }
     ],
     "Servers": [
-{
-            "Name": "Servidor - BR 01",
-            "TYPE": "premium",
-            "FLAG": "br.png",
-            "ServerIP": "http://familia1.vpnhomersimpsons.online",
-            "CheckUser": "http://139.177.195.144:5555/checkUser",
-            "ServerPort": "22",
-            "SSLPort": "443",
-            "USER": "",
-            "PASS": ""
-},
 {
             "Name": "Servidor - BR 02",
             "TYPE": "premium",
