@@ -1,5 +1,5 @@
 {
-    "Version": "163",
+    "Version": "166",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
@@ -77,14 +77,14 @@
             "Info": "Proxy"
 },
 {
-       "Name": "☆ Tim - Premium 02",
-       "FLAG": "tim",
-       "Payload": "ACL http://1.1.1.1rotate=www.waze.com;buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;www.myspace.com.br;www.waze.com;1.0.0.5[crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "Vpn.wolrdmasater.com.br",
-       "ProxyPort": "80",
-       "Info": "Proxy"
+                "Name": "TIM nova VÁLIDO | 06",
+                "FLAG": "tim",
+                "Payload": "MERGE indexer10.sjc.northshore.akamai.com HTTP/2.0[crlf]Host: indexer10.sjc.northshore.akamai.com [crlf]Connection: update, Keep-Alive-Status 101[crlf]Update: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)@mateuscmf[crlf]Referer: http://www.google.com[crlf]",
+                "SNI": "",
+                "TlsIP": "",
+                "ProxyIP": "45.140.193.106",
+                "ProxyPort": "80",
+                "Info": "Proxy"
 },
 {
        "Name": "☆ Tim - Premium 03",
