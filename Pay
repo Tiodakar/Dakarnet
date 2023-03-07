@@ -1,3 +1,102 @@
+Testadas
+
+"Networks": [
+{
+           "Name": "⬇️CONEXÕES TESTADAS⬇️",
+           "FLAG": "",
+           "Payload": "",
+           "SNI": "",
+           "TlsIP": "",
+           "ProxyIP": "",
+           "ProxyPort": "",
+           "Info": ""
+},
+{
+           "Name":"☆ Vivo - Premium 01",
+           "FLAG":"vivo",
+           "Payload":"BASELINE-CONTROL wss://[app_host] HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
+           "SNI":"[app_host]",
+           "TlsIP":"104.16.53.111",
+           "ProxyIP":"",
+           "ProxyPort":"443",
+           "Info":"Tlsws"
+},
+{
+           "Name":"☆ Vivo - Premium 02",
+           "FLAG":"vivo",
+           "Payload":"BASELINE-CONTROL wss://[app_host] HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
+           "SNI":"[app_host]",
+           "TlsIP":"itsupport.surveymonkey.com",
+           "ProxyIP":"",
+           "ProxyPort":"443",
+           "Info":"Tlsws"
+},
+{
+           "Name":"☆ Vivo - Premium 03",
+           "FLAG":"vivo",
+           "Payload":"BASELINE-CONTROL wss://[app_host] HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
+           "SNI":"[app_host]",
+           "TlsIP":"104.16.51.111",
+           "ProxyIP":"",
+           "ProxyPort":"443",
+           "Info":"Tlsws"
+},
+{
+           "Name": "☆ Tim - Premium 01",
+           "FLAG": "tim",
+           "Payload": "GET / HTTP/1.1\nHost: api.sandbox.c6bank.com.br\nExpect: 100-continue\n\n[split]\n\nACL /?/ HTTP/1.1\nHost: [app_host]\nExpect: 100-continue\nUpgrade: websocket\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n\n",
+           "SNI": "",
+           "TlsIP": "",
+           "ProxyIP": "104.19.239.25",
+           "ProxyPort": "80",
+           "Info": "Proxy"
+},
+{    
+           "Name": "☆ Tim - Premium 02",
+           "FLAG": "tim",
+           "Payload": "PATCH HTTP/1.0 [crlf]Host: map.qq.com[crlf]",
+           "SNI": "",
+           "TlsIP": "",
+           "ProxyIP": "[app_host]",
+           "ProxyPort": "80",
+           "Info": "Proxy"
+  },
+  {
+ 
+           "Name": "☆ Tim - Premium 03 'Aviao'",
+           "FLAG": "tim",
+           "Payload": "MOVE HTTP/1.1[lf]Host:pt.foursquare.com/v/vivo-portal-celulares/519cd8a3498e55a588aa93c1[lf][lf]",
+           "SNI": "",
+           "TlsIP": "",
+           "ProxyIP": "[app_host]",
+           "ProxyPort": "80",
+           "Info": "Proxy"
+},
+{
+ 
+           "Name": "☆ Tim - Premium 04 'Aviao'",
+           "FLAG": "tim",
+           "Payload": "PATCH HTTP/1.0 [crlf]Host: map.qq.com[crlf]",
+           "SNI": "",
+           "TlsIP": "",
+           "ProxyIP": "[app_host]",
+           "ProxyPort": "80",
+           "Info": "Proxy"
+},
+{
+           "Name": "☆ Oi - Premium",
+           "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+           "SNI": "",
+           "TlsIP": "www.hbogo.com.br",
+           "SshPort": "80",
+           "ProxyIP": "",
+           "ProxyPort": "",
+           "FLAG": "oi",
+           "Info": "Direct"
+}
+
+=====================/////////====================
+
 {
            "Name": "Tim - Premium 01",
            "FLAG": "tim",
