@@ -1,16 +1,16 @@
 {
-    "Version": "145",
+    "Version": "150",
     "ReleaseNotes": "SEJA BEM VINDO",
     "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config",
     "EmailFeedback": "sac@wordmasater.com",
-    "UrlContato": "#",
+    "UrlContato": "",
     "UrlTermos": "https://telegra.ph/Termos-de-uso-07-31",
     "CheckUser": "null",
     "Udp": [
-        {
+{
             "Porta": "7300"
-        }
+}
     ],
     "Servers": [
 {
