@@ -23,7 +23,7 @@
             "SSLPort": "443",
             "USER": "",
             "PASS": ""
-},
+}
 {
             "Name": "TOPTURBO",
             "TYPE": "premium",
