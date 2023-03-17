@@ -1,28 +1,29 @@
 {
-  "Version": "1.2",
-  "ReleaseNotes": "Nova Atualização Disponível!!!",
+  "Version": "1.0",
+  "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config4g",
   "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
-  "LogoLink": "https://i.ibb.co/sCBZVmF/IMG-20210412-192044-523.jpg",
+  "LogoLink": "https://i.ibb.co/dK5K536/IMG-20210412-192044-523-removebg-preview.png",
   "BackgroundLink": "https://i.ibb.co/6t9k3tM/images.jpg",
   "CheckUser": "true",
   "Udp": [
     {
       "Porta": "7300"
- }
+    }
   ],
   "Servers": [
- {
-            "Name": "Servidor - BR 02",
-            "TYPE": "premium",
-            "FLAG": "br.png",
-            "ServerIP": "topturbo4g.topturbo.net",
-            "CheckUser": "http://",
-            "ServerPort": "22",
-            "SSLPort": "443",
-            "USER": "",
-            "PASS": ""
-}
+    {
+      "Name": "Dakar Store",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "104.16.51.111",
+      "CheckUser": "linkcheckuser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
   "Networks": [
     {
        "Name": "VIVO CLOUD",
