@@ -1,5 +1,5 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ReleaseNotes": "Nova Atualização Disponível!!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config4g",
   "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
@@ -13,7 +13,7 @@
   ],
   "Servers": [
  {
-            "Name": "Servidor - BR 01",
+            "Name": "Servidor - BR 02",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "topturbo4g.topturbo.net",
