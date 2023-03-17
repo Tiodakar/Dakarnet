@@ -1,5 +1,5 @@
 {
-  "Version": "1.0",
+  "Version": "1.2",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config4g",
   "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
@@ -13,7 +13,7 @@
   ],
   "Servers": [
     {
-      "Name": "Dakar Store",
+      "Name": "Servidor - Dakar",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "104.16.51.111",
