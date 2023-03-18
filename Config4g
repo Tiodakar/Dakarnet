@@ -1,5 +1,5 @@
 {
-  "Version": "2.2",
+  "Version": "2.3",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config4g",
   "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
@@ -275,7 +275,6 @@
           "ProxyPort": "443",
           "Info": "Tlsws"
           },
-          {    
           {   
           "Name": "★Claro PRÉZÃO★",
           "FLAG": "CLARO",
