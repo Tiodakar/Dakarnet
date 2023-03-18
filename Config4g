@@ -1,5 +1,5 @@
 {
-  "Version": "2.3",
+  "Version": "2.4",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Tiodakar/Dakarnet/main/Config4g",
   "Sms": "https://app.cloudeasybrasil.com.br/update/dakarnet/sms",
@@ -161,14 +161,14 @@
             "Payload":"GET / HTTP/1.1[lf]Host: api.sandbox.c6bank.com.br[lf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /?/ HTTP/1.1[lf]Host: [app_host] [lf]Expect: 100-continue[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
             "SNI":"",
             "TlsIP":"",
-            "ProxyIP":"subostuir os ips aqui",
+            "ProxyIP":"104.16.53.111",
             "ProxyPort":"80",
             "Info": "Proxy"
             },
             {
             "Nome": "Vivo - Payload Premium 01",
             "BANDEIRA": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d12125xnitvy3u.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
             "SN": "",
             "TlsIP": "",
             "ProxyIP": "recarga.vivo.com.br",
@@ -178,7 +178,7 @@
             {
             "Nome": "Vivo - Payload Premium 02",
             "BANDEIRA": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d24tiqq6u10fpu.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
             "SN": "",
             "TlsIP": "",
             "ProxyIP": "live.vivo.com.br",
@@ -188,7 +188,7 @@
             { 
             "Nome": "Vivo - Payload Premium 03",
             "BANDEIRA": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1gyq6esom427w.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
             "SN": "",
             "TlsIP": "",
             "ProxyIP": "live.vivo.com.br",
@@ -208,7 +208,7 @@
             {
             "Nome": "Vivo - Payload Premium 05",
             "BANDEIRA": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: doek9c712gt1k.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
             "SN": "",
             "TlsIP": "",
             "ProxyIP": "recarga.vivo.com.br",
